@@ -2,6 +2,8 @@
 
 Este proyecto convierte un archivo de imagen PNG en un archivo de icono (ICO) con varias resoluciones, que es útil para favicon de sitios web. El programa redimensiona la imagen PNG a varios tamaños estándar (16x16, 32x32, 48x48, 64x64, 128x128 y 256x256) y guarda cada versión en formato .ico.
 
+[**Descargar el ejecutable para Windows aquí !**](https://github.com/MrSCR98/convertir-png-a-ico/releases/download/Ejecutable.exe/convertir_png_a_ico.exe)
+
 ## Requisitos
 
 1. **Instalar Rust** (opcional): Si deseas compilar el código por ti mismo y realizar modificaciones, necesitas tener Rust instalado. Puedes instalar Rust desde [https://www.rust-lang.org](https://www.rust-lang.org).
