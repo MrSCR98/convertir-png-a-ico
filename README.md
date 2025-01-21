@@ -4,6 +4,49 @@ Este proyecto convierte un archivo de imagen PNG en un archivo de icono (ICO) co
 
 [**Descargar el ejecutable para Windows aquí !**](https://github.com/MrSCR98/convertir-png-a-ico/releases/download/Ejecutable.exe/convertir_png_a_ico.exe)
 
+## Cómo usarlo
+
+Sigue estos pasos para convertir un archivo PNG en íconos ICO de diferentes tamaños.
+
+### Organización de Archivos
+
+```
+📁 Carpeta principal // Nueva carpeta para organizar los archivos
+ ├── convertir_png_a_ico.exe   <-- Ejecutable descargado
+ ├── favicon.png               <-- Imagen original (entrada)
+ ├── favicon_16x16.ico         <-- Icono de 16x16 píxeles // generado
+ ├── favicon_32x32.ico         <-- Icono de 32x32 píxeles // generado
+ ├── favicon_48x48.ico         <-- Icono de 48x48 píxeles // generado
+ ├── favicon_64x64.ico         <-- Icono de 64x64 píxeles // generado
+ ├── favicon_128x128.ico       <-- Icono de 128x128 píxeles // generado
+ └── favicon_256x256.ico       <-- Icono de 256x256 píxeles // generado
+```
+
+### Pasos
+
+1. **Descarga el ejecutable**: 
+   [Haz clic aquí para descargar el archivo](https://github.com/MrSCR98/convertir-png-a-ico/releases/download/Ejecutable.exe/convertir_png_a_ico.exe).
+   
+2. **Crea una carpeta**:
+   - Crea una carpeta donde quieras trabajar y guarda el archivo \`convertir_png_a_ico.exe\` en ella.
+
+3. **Coloca la imagen PNG**:
+   - Añade tu imagen llamada \`favicon.png\` en la misma carpeta.
+
+4. **Ejecuta el programa**:
+   - Haz doble clic en \`convertir_png_a_ico.exe\`. El programa automáticamente procesará la imagen y generará los archivos ICO.
+
+5. **Verifica los resultados**:
+   - Los íconos generados (\`favicon_16x16.ico\`, \`favicon_32x32.ico\`, etc.) estarán en la misma carpeta.
+
+---
+
+### Resultado Final
+
+El programa generará los archivos ICO con varios tamaños que puedes usar como favicons o en otros contextos.
+
+---
+
 ## Requisitos
 
 1. **Instalar Rust** (opcional): Si deseas compilar el código por ti mismo y realizar modificaciones, necesitas tener Rust instalado. Puedes instalar Rust desde [https://www.rust-lang.org](https://www.rust-lang.org).
