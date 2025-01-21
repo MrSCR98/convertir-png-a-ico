@@ -31,7 +31,7 @@ El proyecto usa el crate `image`, que se incluye en el archivo `Cargo.toml` de e
 cargo build
 ```
 
-Este comando descargará e instalará todas las dependencias necesarias y generará el archivo ejecutable en el directorio \`target/debug\`.
+Este comando descargará e instalará todas las dependencias necesarias y generará el archivo ejecutable en el directorio `target/debug`.
 
 ## Uso del Proyecto
 
